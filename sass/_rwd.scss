@@ -8,6 +8,20 @@
 	}
 }
 
+@media screen and (max-width: 1280px) {
+	.menus {
+    	margin-right: 135px !important;
+    	// background: red !important;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .menus {
+    	margin-right: 175px !important;
+    	// background: red !important;
+    }
+}
+
 .slider-banner {
 	.carousel-inner {
 		.item {
