@@ -1,0 +1,90 @@
+@import 'bootstrap-mixins';
+
+.nav-second {
+	.navbar-toggle {
+		.icon-bar {
+			background: #ffffff !important;
+		}
+	}
+}
+
+.slider-banner {
+	.carousel-inner {
+		.item {
+			img {
+				@include respondto (xs, sm) {
+			     	width: 390px !important;
+			     	height: 350px !important;
+			  	}
+			}
+		}
+	}
+}
+
+.nav-small {
+	.note {
+		@include respondto (xs, sm) {
+	     	margin-left: 10px !important;
+	  	}
+	}
+	.pull-right {
+		@include respondto (xs, sm) {
+	     		margin-right: 50px !important;
+	  		}
+	}
+}
+
+.navbar {
+	.navbar-toggle {
+		@include respondto (xs, sm, md) {
+     		margin-top: 25px !important;
+  		}
+	}
+	.navbar-collapse {
+		@include respondto (xs, sm, md) {
+     		border: 0 !important;
+     		background: $red !important;
+     		margin-top: 20px !important;
+     		.megamenu {
+     			overflow: hidden !important;
+     			.child-menu {
+     				float: none !important;
+     				margin-bottom: 30px !important;
+     			}
+     		}
+     		.master-text {
+     			&:hover {
+	     				color: #ffffff !important;
+	     			}
+     		}
+     		.hotline {
+     			a{
+     				&:hover {
+	     				color: #ffffff !important;
+	     			}
+     			}
+     		}
+  		}
+	}
+}
+
+.landing-option {
+	.left {
+		@include respondto(xs, sm) {
+			width: 100% !important;
+			height: 300px !important;
+		}
+	}
+}
+
+.slider-partner {
+	@include respondto(xs, sm) {
+		display: none !important;
+	}
+}
+
+.footer {
+	.item {
+		margin-bottom: 50px !important;
+	}
+}
