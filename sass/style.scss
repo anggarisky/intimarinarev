@@ -15,12 +15,18 @@
 	// background: red !important;
 	z-index: 99999;
 	position: absolute;
-	top: 23.8%;
+	// top: 23.8%;
+	margin-top: -20px !important;
 	display: none;
 	.menus {
+		// width: 600px;
+		// overflow: hidden;
 		float: right;
-		margin-right: 9%;
-		margin-top: 2%;
+		// margin: auto;
+		margin-right: 460px;
+		// margin-left: 500px;
+		// background: red;
+		margin-top: 20px;
 	}
 	.child-menu {
 			float: left;
@@ -396,7 +402,7 @@ body {
 	.navbar-nav {
 		li {
 			a {
-				color: #ffffff !important;
+				color: $black !important;
 				&:hover {
 					color: #e80601 !important;
 				}
@@ -431,6 +437,9 @@ body {
 		font-size: 18px !important;
 		a {
 			color: $black !important;
+			&:hover {
+				color: $red !important;
+			}
 		}
 	}
 }

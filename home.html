@@ -78,10 +78,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <!-- <li class="hotline active"><a href="#">Power Product</a></li> -->
 
-            <li class="hoteline dropdown">
-              <a href="#" class="active master-text dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Power Product <span class="caret"></span></a>
+            <li class="hoteline dropdown hidden-lg hidden-md hidden-sm">
+              <a href="#" class="master-text dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Power Product <span class="caret"></span></a>
               <ul class="megamenu dropdown-menu">
                 <ul class="child-menu">
                   <li><a href="#">Brush Cutter</a></li>
@@ -101,14 +100,40 @@
               </ul>
             </li>
 
-            <li class="hotline"><a style="color: #000000 !important" href="#">Heavy Equipment</a></li>
-            <li class="hotline"><a style="color: #000000 !important" href="#">About Us</a></li>
-            <li class="hotline"><a style="color: #000000 !important" href="#">Contact Us</a></li>
+            <li onmouseout="closeMMPanda();" onmouseover="megamenuPanda();" class="hotline triger-mm-panda hidden-sm hidden-xs"><a href="#">Power Product <i class="fa fa-chevron-down"></i> </a></li>
+
+            <li class="hotline"><a href="#">Heavy Equipment</a></li>
+            <li class="hotline"><a href="#">About Us</a></li>
+            <li class="hotline"><a href="#">Contact Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
 
       </div><!-- /.container-fluid -->
     </nav>
+
+
+
+            <div onmouseout="closeMMPanda();" onmouseover="megamenuPanda();" class="megamenu-panda" id="mm-panda">
+                <div class="menus">
+                  <ul class="child-menu">
+                    <li><a href="#">Brush Cutter</a></li>
+                    <li><a href="#">Chainsaw</a></li>
+                    <li><a href="#">Generator</a></li>
+                  </ul>
+                  <ul class="child-menu">
+                    <li><a href="#">Diesel Generator</a></li>
+                    <li><a href="#">Waterpump</a></li>
+                    <li><a href="#">Engine</a></li>
+                  </ul>
+                  <ul class="child-menu">
+                    <li><a href="#">Hose</a></li>
+                    <li><a href="#">Pump Only</a></li>
+                    <li><a href="#">Altemator</a></li>
+                  </ul>
+                </div>
+            </div>
+
+
     
     <div class="slider-banner">
       <div class="">
@@ -450,5 +475,7 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/myscript.js"></script>
   </body>
 </html>
