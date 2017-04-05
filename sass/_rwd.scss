@@ -29,7 +29,7 @@
 	}
 	.pull-right {
 		@include respondto (xs, sm) {
-	     		margin-right: 50px !important;
+	     		margin-right: 20px !important;
 	  		}
 	}
 }
