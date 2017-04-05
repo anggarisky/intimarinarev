@@ -151,6 +151,8 @@
       .megamenu-panda .child-menu li a {
         color: #000000 !important;
         font-weight: bold !important; }
+        .megamenu-panda .child-menu li a:hover {
+          color: #e80601 !important; }
 
 .bold-me {
   font-family: 'OpenSansBold'; }

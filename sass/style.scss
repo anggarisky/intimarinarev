@@ -38,6 +38,9 @@
 				a {
 					color: $black !important;
 					font-weight: bold !important;
+					&:hover {
+						color: $red !important;
+					}
 				}
 			}
 		}
