@@ -96,11 +96,13 @@
 		}
 	}
 	.left {
-		&:hover {
-			width: 100%;
-			position: relative !important;
-			z-index: 0;
-			transition: none;
+		@include respondto(xs, sm) {
+			&:hover {
+				width: 100%;
+				position: relative !important;
+				z-index: 0;
+				transition: none;
+			}
 		}	
 	}
 }
