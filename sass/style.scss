@@ -366,13 +366,13 @@ body {
 			color: $red !important;
 		}
 	}
-	li.dropdown {
-		&:hover {
-			.megamenu {
-				display: block !important;
-			}
-		}
-	}
+	// li.dropdown {
+	// 	&:hover {
+	// 		.megamenu {
+	// 			display: block !important;
+	// 		}
+	// 	}
+	// }
 	.master-text {
 		font-size: 18px !important;
 		margin-top: 20px;
@@ -560,6 +560,7 @@ body {
 		position: relative;
 		cursor: pointer;
 	}
+
 	.left {
 		width: 50%;
 		height: 500px;
@@ -568,7 +569,6 @@ body {
 		background: url('../img/landing-banner-2.png');
 		float: left;
 		position: relative;
-		// transition: all 1s;
 		&:hover {
 			width: 100%;
 			position: absolute;

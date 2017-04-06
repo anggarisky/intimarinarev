@@ -98,17 +98,38 @@
       .navbar .navbar-collapse .hotline a:hover {
         color: #ffffff !important; } }
 
-.landing-option .left {
+.landing-option .left,
+.landing-option .right {
   /* Landscape phones and down */
   /* Landscape phones and down */ }
   @media (max-width: 767px) {
-    .landing-option .left {
+    .landing-option .left,
+    .landing-option .right {
       width: 100% !important;
       height: 300px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    .landing-option .left {
+    .landing-option .left,
+    .landing-option .right {
       width: 100% !important;
       height: 300px !important; } }
+.landing-option .left-option {
+  /* Landscape phones and down */
+  /* Landscape phones and down */ }
+  @media (max-width: 767px) {
+    .landing-option .left-option {
+      display: none !important; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .landing-option .left-option {
+      display: none !important; } }
+.landing-option .left:hover {
+  width: 100%;
+  position: relative !important;
+  z-index: 0;
+  transition: none; }
+
+.nav-second {
+  /* Landscape phones and down */
+  /* Landscape phones and down */ }
 
 .slider-partner {
   /* Landscape phones and down */
@@ -378,8 +399,6 @@ body {
   border-radius: 0 !important; }
   .nav-second .hoteline .active {
     color: #e80601 !important; }
-  .nav-second li.dropdown:hover .megamenu {
-    display: block !important; }
   .nav-second .master-text {
     font-size: 18px !important;
     margin-top: 20px; }

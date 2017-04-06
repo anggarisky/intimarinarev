@@ -83,11 +83,37 @@
 }
 
 .landing-option {
-	.left {
+	.left,
+	.right {
 		@include respondto(xs, sm) {
 			width: 100% !important;
 			height: 300px !important;
 		}
+	}
+	.left-option {
+		@include respondto(xs, sm) {
+			display: none !important;
+		}
+	}
+	.left {
+		&:hover {
+			width: 100%;
+			position: relative !important;
+			z-index: 0;
+			transition: none;
+		}	
+	}
+}
+
+.nav-second {
+	@include respondto(xs, sm) {
+		.dropdown, li.dropdown {
+			&:hover {
+				.dropdown-menu, .megamenu {
+					// stressed out
+				}
+			}
+		}		
 	}
 }
 
