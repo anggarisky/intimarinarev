@@ -231,7 +231,8 @@ body {
     margin-bottom: 10px !important;
     margin-top: 10px !important; }
     .product-detail .detail .pdf-download .btn-download-pdf {
-      margin-right: 40px; }
+      margin-right: 40px;
+      font-size: 11px; }
     .product-detail .detail .pdf-download .pdf-icon {
       float: left;
       margin-top: 20px; }
@@ -255,6 +256,7 @@ body {
     font-weight: 200;
     margin: 0; }
     .product-detail .detail .content .btn-facebook, .product-detail .detail .content .btn-twitter, .product-detail .detail .content .btn-google-plus, .product-detail .detail .content .btn-whatsapp, .product-detail .detail .content .btn-call {
+      font-size: 11px;
       margin-top: 30px;
       background: #3a5b94;
       padding-right: 10px;
